@@ -1,0 +1,2 @@
+bedtools bamtobed -i input.bam > output.bed
+bedtools getfasta -fi reference.fasta -bed output.bed -fo bam_to_fasta_output.fsata 
